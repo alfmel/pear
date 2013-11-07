@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<server>
+	<name>alfmel.github.com/pear</name>
+	<summary>Cougar Framework Pear Channel</summary>
+	<alias>cougar</alias>
+	<url>http://alfmel.github.com/pear</url>
+</server>
+
