@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://alfmel.github.com/pear</id>
-    <updated>2013-11-07T14:10:17-07:00</updated>
+    <updated>2013-11-08T12:33:38-07:00</updated>
     <title>Cougar Framework Pear Channel Latest Releases</title>
     <link href="http://alfmel.github.com/pear/feed.xml" rel="self" />
     <author>
         <name>http://alfmel.github.com/pear</name>
     </author>
 
-
+    <entry>
+        <title>Cougar 2013.11.08 (stable)</title>
+        <link href="http://alfmel.github.com/pear/get/Cougar-2013.11.08.tgz" />
+        <id>http://alfmel.github.com/pear/get/Cougar-2013.11.08.tgz</id>
+        <author>
+            <name>at29</name>
+        </author>
+        <updated>2013-11-08T19:11:31-07:00</updated>
+        <content>
+            Framework for quickly and securely developing RESTful APIs in PHP.
+            
+2013-11-08 Snapshot
+ 
+        </content>
+    </entry>
 </feed>

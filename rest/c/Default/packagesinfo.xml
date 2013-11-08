@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <f xmlns="http://pear.php.net/dtd/rest.categorypackageinfo" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://pear.php.net/dtd/rest.categorypackageinfo     http://pear.php.net/dtd/rest.categorypackageinfo.xsd">
+    <pi>
+        <p>
+            <n>Cougar</n>
+            <c>alfmel.github.com/pear</c>
+            <ca xlink:href="/rest/c/Default">Default</ca>
+            <l>MIT License</l>
+            <s>Cougar Framework for PHP</s>
+            <d>Framework for quickly and securely developing RESTful APIs in PHP.</d>
+            <r xlink:href="/rest/r/cougar" />
+        </p>
 
+        <a>
+            <r>
+                <v>2013.11.08</v>
+                <s>stable</s>
+            </r>
+
+        </a>
+
+        <deps>
+            <v>2013.11.08</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:2:{s:3:"min";s:3:"5.4";s:3:"max";s:5:"6.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:10:"1.4.0dev13";}}}</d>
+        </deps>
+
+    </pi>
 </f>
