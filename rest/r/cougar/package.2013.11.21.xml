@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<package packagerversion="1.9.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0   http://pear.php.net/dtd/tasks-1.0.xsd   http://pear.php.net/dtd/package-2.0   http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Cougar</name>
+ <channel>alfmel.github.com/pear</channel>
+ <summary>Cougar Framework for PHP</summary>
+ <description>Framework for quickly and securely developing RESTful APIs in PHP.</description>
+ <lead>
+  <name>Alberto Trevino, OIT Core</name>
+  <user>at29</user>
+  <email>alberto@byu.edu</email>
+  <active>yes</active>
+ </lead>
+ <date>2013-11-22</date>
+ <time>00:59:25</time>
+ <version>
+  <release>2013.11.21</release>
+  <api>2013.11.08</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="https://github.com/alfmel/cougar/blob/master/LICENSE.TXT">MIT License</license>
+ <notes>
+2013-11-21 Snapshot
+ </notes>
+ <contents>
+  <dir name="/">
+   <file md5sum="2eeff220f5e8d877b2e5bde9074a933d" name="Cougar/Autoload/Autoload.php" role="php" />
+   <file md5sum="7f99e482fb931d6edf7b0e06c706da6e" name="Cougar/Autoload/FlexAutoload.php" role="php" />
+   <file md5sum="e3bed3a661ffc84a168730a4ad7b86b4" name="Cougar/Model/tAnnotatedClass.php" role="php" />
+   <file md5sum="cd05eb9a87a5d8dca62042360c84354a" name="Cougar/Model/AnnotatedClass.php" role="php" />
+   <file md5sum="d06c861c410c1f55af36d743724f13c9" name="Cougar/Model/PdoModel.php" role="php" />
+   <file md5sum="19cfab7d741f98a9aabd7dbef07e3261" name="Cougar/Model/Model.php" role="php" />
+   <file md5sum="239fe82198f562736671c8f7e8883305" name="Cougar/Model/cougar-model-builder" role="script" />
+   <file md5sum="fed1455615e70a5e46a7f17eef5b204a" name="Cougar/Model/iModel.php" role="php" />
+   <file md5sum="61652e0733ecd208cfe42abd2f40a9e4" name="Cougar/Model/tPdoModel.php" role="php" />
+   <file md5sum="4a2734ab2c7e9da1af6eaa8690760db1" name="Cougar/Model/tArrayExportable.php" role="php" />
+   <file md5sum="77fedf08573bd6ac2fbcc99f41dbe4f3" name="Cougar/Model/RealStruct.php" role="php" />
+   <file md5sum="7e449877db4c93df878c302bcda26064" name="Cougar/Model/tStruct.php" role="php" />
+   <file md5sum="19097d7f4bda527dc7b05893b15cf285" name="Cougar/Model/iAnnotatedClass.php" role="php" />
+   <file md5sum="5b06525cfd16558e99f9ad8b492d7078" name="Cougar/Model/Struct.php" role="php" />
+   <file md5sum="b8df3fb4bffbdcd82b94142a489bf251" name="Cougar/Model/tStrictModel.php" role="php" />
+   <file md5sum="242308f048f6cb35e5f1a6969d60d800" name="Cougar/Model/tModel.php" role="php" />
+   <file md5sum="6050c6d09893c34227281ae985be8eef" name="Cougar/Model/PdoEnumeration.php" role="php" />
+   <file md5sum="e669126d0e5f75c4a692083560a658f7" name="Cougar/Model/tRealStruct.php" role="php" />
+   <file md5sum="487319e5c3efcf1069b195a9b7280c0e" name="Cougar/Model/tWsModel.php" role="php" />
+   <file md5sum="c6144286ff70a6a9f813a1a889b21b2a" name="Cougar/Model/WsModel.php" role="php" />
+   <file md5sum="a6c49810396685408546bd0de461849e" name="Cougar/Model/ArrayExportable.php" role="php" />
+   <file md5sum="1710f6e7c89a6450f4f465d2b0fc4ce2" name="Cougar/Model/iStoredModel.php" role="php" />
+   <file md5sum="8047734a7e1c5ac1c3e49b9ce92591b4" name="Cougar/Model/iStruct.php" role="php" />
+   <file md5sum="6e78885cb8eb6010118448c5122d5725" name="Cougar/Model/iArrayExportable.php" role="php" />
+   <file md5sum="a32463a92b2f3845d138d4000f88de30" name="Cougar/Model/StrictModel.php" role="php" />
+   <file md5sum="9d20896425959fa9ce013c04816509d6" name="Cougar/Security/Security.php" role="php" />
+   <file md5sum="16c5fb38452be787dd1d83e3d099e319" name="Cougar/Security/iAuthorizationProvider.php" role="php" />
+   <file md5sum="771c4807975078db5cec4c411038cf92" name="Cougar/Security/iAuthenticationProvider.php" role="php" />
+   <file md5sum="683f3fb54df6370d25d901602c3a93a2" name="Cougar/Security/iSecurity.php" role="php" />
+   <file md5sum="38a5067c815e8f180804747924793c83" name="Cougar/Security/CasAuthenticationProvider.php" role="php" />
+   <file md5sum="422ec445cb4a5c5c7f0a6c90b016ddef" name="Cougar/Security/Identity.php" role="php" />
+   <file md5sum="2261ce43b82748b06cb7cea8253e39e9" name="Cougar/Security/iClientAuthenticationProvider.php" role="php" />
+   <file md5sum="0f72979baa8c417f9632394c93bf2910" name="Cougar/Security/iIdentity.php" role="php" />
+   <file md5sum="4a75d16de31d96415a6302ec1cb6418c" name="Cougar/Util/iSecureString.php" role="php" />
+   <file md5sum="9c7cfdd32d23e5df2c45ef456b2fdc51" name="Cougar/Util/ClassAnnotations.php" role="php" />
+   <file md5sum="541cd7efa1fbd08f01879e29be6506f8" name="Cougar/Util/iArrays.php" role="php" />
+   <file md5sum="2d342cda9b16031a218a0e42bae52a42" name="Cougar/Util/DateTime.php" role="php" />
+   <file md5sum="8c3ee9d8cb0c160540c206d9ff1a8631" name="Cougar/Util/Format.php" role="php" />
+   <file md5sum="4c28647ca64ab2bd2d19a299083c48da" name="Cougar/Util/iAnnotations.php" role="php" />
+   <file md5sum="8a4c6499a6238381003a04cb9bf9652b" name="Cougar/Util/Config.php" role="php" />
+   <file md5sum="0a7fb1193b2fb3e4e1cba4a8705fd227" name="Cougar/Util/iConfig.php" role="php" />
+   <file md5sum="74c6237d5b0caed72ece86f46d3a103a" name="Cougar/Util/Arrays.php" role="php" />
+   <file md5sum="a07ce8dd01cd746275ed4d399cc1753c" name="Cougar/Util/StringObfuscator.php" role="php" />
+   <file md5sum="7f5f529d6664255bcbde87d77b24206f" name="Cougar/Util/Annotations.php" role="php" />
+   <file md5sum="b6e7d844ab5a42b871330dcbde8dcdc6" name="Cougar/Util/iXml.php" role="php" />
+   <file md5sum="15c6de2998cf0e525e4a8633e2bfead5" name="Cougar/Util/QueryParameter.php" role="php" />
+   <file md5sum="22e93c04a5a7c3a2a0f4319c97432688" name="Cougar/Util/Annotation.php" role="php" />
+   <file md5sum="4d1e25ed54d9db6e2a5c76453ee52e84" name="Cougar/Util/Xml.php" role="php" />
+   <file md5sum="5ea93a22ba85792f81b11519263f1ce2" name="Cougar/Util/iFormat.php" role="php" />
+   <file md5sum="8491fc927a991b9352c562b95bd5bcc7" name="Cougar/Util/cougar-obfuscate-string" role="script" />
+   <file md5sum="ea3e64cc35d9559d35edca3cf26f1b43" name="Cougar/Util/Arc4.php" role="php" />
+   <file md5sum="93dce8262775d72a8830eb773c1fde80" name="Cougar/Cache/iCache.php" role="php" />
+   <file md5sum="425c3fbb4d0cee6237657a6db2550b7e" name="Cougar/Cache/CacheFactory.php" role="php" />
+   <file md5sum="82ce85ef0434a0f9a0dbc79ac161e98c" name="Cougar/Cache/Cache.php" role="php" />
+   <file md5sum="fa27e6c483e38b1a08dfed9e06b7cedc" name="Cougar/PDO/PDO.php" role="php" />
+   <file md5sum="128d79af9aa8d3710b6ebbdded3ae829" name="Cougar/PDO/cougar-create-pdo-connection-file" role="script" />
+   <file md5sum="9f8fc5aad2b4fc083e233524079cf219" name="Cougar/PDO/iPDO.php" role="php" />
+   <file md5sum="d59d0452c554a305a44c7dfce958f8e0" name="Cougar/PDO/PDOFactory.php" role="php" />
+   <file md5sum="700490425be120885ac2d412f4783f85" name="Cougar/RestClient/CurlWrapper.php" role="php" />
+   <file md5sum="44fe29a7b2412780052da3b38bfe545b" name="Cougar/RestClient/iRestClient.php" role="php" />
+   <file md5sum="e9f6d1044865565962cb979699011a6b" name="Cougar/RestClient/RestClient.php" role="php" />
+   <file md5sum="9cea763c53c9acfd36750273fba32838" name="Cougar/RestService/Parameter.php" role="php" />
+   <file md5sum="d089b404adfcbd2ea1c6f0731b0bf0fc" name="Cougar/RestService/RestService.php" role="php" />
+   <file md5sum="294d67080a0644294c62cbb906a59cb6" name="Cougar/RestService/iRestService.php" role="php" />
+   <file md5sum="324e7457b3c5553225507a88156839e2" name="Cougar/RestService/iAnnotatedRestService.php" role="php" />
+   <file md5sum="13db5a3fee16c6d41b89417a8ff0e47a" name="Cougar/RestService/Binding.php" role="php" />
+   <file md5sum="24422caffa0822e94642ef671f1e41cb" name="Cougar/RestService/AnnotatedRestService.php" role="php" />
+   <file md5sum="f28d9b05d392e746e0c0696ceeb10cb8" name="Cougar/Exceptions/AuthenticationRequiredException.php" role="php" />
+   <file md5sum="2d0df3a956fb82baf6a2e408db84e106" name="Cougar/Exceptions/ServiceUnavailableException.php" role="php" />
+   <file md5sum="0ccc66c37eeceb5cab90fe8339e82560" name="Cougar/Exceptions/BadRequestException.php" role="php" />
+   <file md5sum="4c6e7c24ee0b4eee913311121082fa50" name="Cougar/Exceptions/HttpRequestParseException.php" role="php" />
+   <file md5sum="cf3cbb5084ad84477c835fd8952346d4" name="Cougar/Exceptions/Errors.php" role="php" />
+   <file md5sum="d770420a7e9c5b6d2d323ac1f05c74db" name="Cougar/Exceptions/NotFoundException.php" role="php" />
+   <file md5sum="6132318c9071f1b648c0cf8424eb9efc" name="Cougar/Exceptions/ConfigurationFileNotFoundException.php" role="php" />
+   <file md5sum="ebf7d334d97b6747efb8348eafb3b679" name="Cougar/Exceptions/RecordNotFoundException.php" role="php" />
+   <file md5sum="264f91224da16f72df9c93ecb2516c18" name="Cougar/Exceptions/HttpRequestException.php" role="php" />
+   <file md5sum="9286554893cb8a739555af08ad857d6a" name="Cougar/Exceptions/AccessDeniedException.php" role="php" />
+   <file md5sum="3b27710e86c9d4c6724bd5f13eb55019" name="Cougar/Exceptions/InvalidAnnotationException.php" role="php" />
+   <file md5sum="037994b5949a3507c48bc12ca0036654" name="Cougar/Exceptions/NotAcceptableException.php" role="php" />
+   <file md5sum="077264e1a2f3010409011379918dd194" name="Cougar/Exceptions/Exception.php" role="php" />
+   <file md5sum="d6cd3d949ec9d4b72b60a3219049372c" name="Cougar/Exceptions/NotImplementedException.php" role="php" />
+   <file md5sum="0a81c3a747e9b328854fec13c2ca4e6c" name="Cougar/Exceptions/InvalidRecordValueException.php" role="php" />
+   <file md5sum="a2ae2e3956259df1771bb1086c6709fa" name="Cougar/Exceptions/MethodNotAllowedException.php" role="php" />
+   <file md5sum="90ab7882a3005fb09a2e3eeddd5756c2" name="cougar.php" role="php" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.4</min>
+    <max>6.0.0</max>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease>
+  <filelist>
+   <install as="cougar-model-builder" name="Cougar/Model/cougar-model-builder" />
+   <install as="cougar-obfuscate-string" name="Cougar/Util/cougar-obfuscate-string" />
+   <install as="cougar-create-pdo-connection-file" name="Cougar/PDO/cougar-create-pdo-connection-file" />
+  </filelist>
+ </phprelease>
+ <changelog>
+  <release>
+   <version>
+    <release>2013.11.21</release>
+    <api>2013.11.08</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2013-11-21</date>
+   <notes>
+2013.11.08 snapshot
+   </notes>
+  </release>
+ </changelog>
+</package>

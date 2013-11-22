@@ -1,6 +1,32 @@
 {
     "pear-cougar\/Cougar": {
         "versions": {
+            "2013.11.21": {
+                "name": "pear-cougar\/Cougar",
+                "description": "Cougar Framework for PHP",
+                "dist": {
+                    "type": "pear",
+                    "url": "http:\/\/alfmel.github.com\/pear\/get\/Cougar-2013.11.21.tgz"
+                },
+                "version": "2013.11.21",
+                "time": "2013-11-22T00:59:25-07:00",
+                "require": {
+                    "php": ">=5.4,<=6.0.0"
+                },
+                "authors": [
+                    {
+                        "name": "Alberto Trevino, OIT Core",
+                        "email": "alberto@byu.edu",
+                        "homepage": ""
+                    }
+                ],
+                "autoload": {
+                    "classmap": {
+                        "0": "Cougar",
+                        "80": "cougar.php"
+                    }
+                }
+            },
             "2013.11.19": {
                 "name": "pear-cougar\/Cougar",
                 "description": "Cougar Framework for PHP",

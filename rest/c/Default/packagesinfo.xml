@@ -13,6 +13,10 @@
 
         <a>
             <r>
+                <v>2013.11.21</v>
+                <s>stable</s>
+            </r>
+            <r>
                 <v>2013.11.19</v>
                 <s>stable</s>
             </r>
@@ -27,6 +31,10 @@
 
         </a>
 
+        <deps>
+            <v>2013.11.21</v>
+            <d>a:1:{s:8:"required";a:2:{s:3:"php";a:2:{s:3:"min";s:3:"5.4";s:3:"max";s:5:"6.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>
+        </deps>
         <deps>
             <v>2013.11.19</v>
             <d>a:1:{s:8:"required";a:2:{s:3:"php";a:2:{s:3:"min";s:3:"5.4";s:3:"max";s:5:"6.0.0";}s:13:"pearinstaller";a:1:{s:3:"min";s:5:"1.4.0";}}}</d>

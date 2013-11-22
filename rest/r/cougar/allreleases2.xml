@@ -3,6 +3,11 @@
     <p>Cougar</p>
     <c>alfmel.github.com/pear</c>
     <r>
+        <v>2013.11.21</v>
+        <s>stable</s>
+        <m>5.4</m>
+    </r>
+    <r>
         <v>2013.11.19</v>
         <s>stable</s>
         <m>5.4</m>
